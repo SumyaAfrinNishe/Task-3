@@ -1,7 +1,27 @@
-* {
-    margin: 0;
+*{
+    margin:0;
+}
+.position{
+    position: relative; 
+}
+.moon{
+    width: 30vw;
+    top: 15%;
+    left: 30%;
+    position: absolute;
 }
 
-img{
+.car{
+    width: 30vw;
+    top: 600px;
+    left: 500px;
+    position: absolute;
+    z-index: -2;
+
+}
+
+.highway{
     width: 100vw;
 }
+
+
