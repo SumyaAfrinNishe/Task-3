@@ -6,9 +6,10 @@
 }
 .moon{
     width: 30vw;
-    top: 15%;
+    top: 50%;
     left: 30%;
     position: absolute;
+    z-index: 20;
 }
 
 .car{
@@ -16,7 +17,7 @@
     top: 600px;
     left: 500px;
     position: absolute;
-    z-index: -2;
+    z-index: 10;
 
 }
 
