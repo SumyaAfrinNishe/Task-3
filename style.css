@@ -24,5 +24,24 @@
 .highway{
     width: 100vw;
 }
+.parentbox{
+    display: flex;
+    padding: 25px;
+    margin-left: 55px;
+}
+
+.box{
+    margin-left: 50px;
+    margin-bottom: 200px;
+    height: 400px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    transition: 0.5s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
 
 
